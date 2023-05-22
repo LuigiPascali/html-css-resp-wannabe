@@ -132,6 +132,8 @@
 
 @media screen and (max-width: 768px) {
     
+    /* GENERAL */
+
     .container {
         width: 100%;
     }
@@ -145,5 +147,103 @@
 /* Smartphone */
 
 @media screen and (max-width: 576px) {
-   
+
+    /* GENERAL */
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .title {
+        padding: 1rem 0;
+    }
+
+    /* LAYOUT */
+
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    /* STEPS SECTION */
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .steps .col {
+        width: auto;
+        margin-bottom: 3.5rem;
+    }
+
+    .steps .col img {
+        height: 18.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* LESSONS SECTION */
+
+    .lessons .col {
+        width: auto;
+        margin-bottom: 3.5rem;
+    }
+
+    .lessons .col img {
+        height: 18.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* WHY US SECTION */
+
+    .why-us {
+        margin-bottom: 0;
+    }
+
+    .why-us .container {
+        background-color: black;
+    }
+
+    .why-us .col-left {
+        width: auto;
+        margin-bottom: 6.25rem;
+    }
+
+    .why-us .col-left {
+        width: 27.25rem;
+    }
+
+    .why-us .col-right {
+        width: 85%;
+        margin-bottom: 10rem;
+    }
+
+    .why-us .text-center {
+        font-size: 2.5rem;
+        padding: 3.5rem 2.5rem 0 2.5rem;        
+    }
 }
